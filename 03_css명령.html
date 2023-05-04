@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 css 명령</title>
+</head>
+<body>
+    <h1>css 명령</h1>
+    <textarea name="" id="" cols="150" rows="23">
+
+        1. 셀렉터의 스타일을 변경한다. 
+            $('셀렉터').css('스타일속성이름','값')
+
+            
+            $('셀렉터').css({
+                '스타일속성이름' : '값'
+            })
+
+            $('셀렉터').css({
+                '스타일속성이름' : '값'
+                '스타일속성이름' : '값'
+                '스타일속성이름' : '값'
+            })
+
+            - 스타일속성이름 중 -으로 연결되는 대상을 표기할 때에는
+             marginLeft     paddingBottom   borderTop
+             과 같이 붙여서 쓰고, 카멜케이스(camelCase)로 처리한다.
+            - 스타일 값 중 px단위의 값은 따옴표 없이 숫자만 작성해도 된다.
+
+        2. 셀렉터의 스타일을 저장한다.
+            let 변수이름 = $('셀렉터').css('스타일속성이름')
+        </textarea>
+    <br><hr><br>
+    <div class="box1">😊</div>
+    <br><hr><br>
+    <div class="box2">
+        <p class="p21">21</p>
+        <p class="p22">22</p>
+    </div>
+    <br><hr><br>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./js/s03.js"></script>
+</body>
+</html>
