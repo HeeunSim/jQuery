@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.btn{
+    display: flex;
+}
+
+.btn > p{
+    border: 1px solid gray;
+    border-right: none;
+    padding: 10px 20px;
+}
+
+.btn > p:last-child{
+    border-right: 1px solid gray;
+}
+
+.btn .on{
+    background-color: lightblue;
+}
+
+.inner {
+    display: none;
+    width: 300px;
+    height: 30px;
+    background-color: lightcyan;
+}
+
+.inner.view {
+    display: block
+}
+/* 띄어쓰기가 없이 붙여쓸땐 태그 중에 해당 class명을 전부 포함한 요소 */
