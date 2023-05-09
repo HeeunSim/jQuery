@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.box1{
+    display: flex;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.box1 .btn {
+    width: 300px;
+}
+
+.box1 .btn button {
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.box1 .pan {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    background-color: antiquewhite;
+}
