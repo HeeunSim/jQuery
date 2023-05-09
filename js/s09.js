@@ -33,3 +33,8 @@ $('.bt8').click(function(){
 $('.bt9').click(function(){
     $('.box1 .pan').fadeToggle(2000)
 })
+
+$('.box2 button').click(function(){
+    $('.box2 .b21').slideToggle(5000)
+    $('.box2 .b22').slideToggle(5000, 'linear')
+})
