@@ -23,3 +23,18 @@
     margin: 0;
     background-color: antiquewhite;
 }
+
+.box2 {
+    margin: 30px 0;
+}
+
+.box2 .b2 {
+    display: flex;
+    height: 500px;
+}
+
+.box2 .b2 p{
+    width: 200px;
+    height: 500px;
+    margin-right: 20px;
+    background-color: violet;
