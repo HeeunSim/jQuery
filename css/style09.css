@@ -24,17 +24,22 @@
     background-color: antiquewhite;
 }
 
-.box2 {
+.box2, .box3 {
     margin: 30px 0;
 }
 
-.box2 .b2 {
+.box2 .b2, .box3 .b3 {
     display: flex;
     height: 500px;
 }
 
-.box2 .b2 p{
+.box2 .b2 p, .box3 .b3 p{
     width: 200px;
     height: 500px;
     margin-right: 20px;
     background-color: violet;
+}
+
+.box3 .b3 p {
+    display: none;
+}
