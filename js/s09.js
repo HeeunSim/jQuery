@@ -38,3 +38,14 @@ $('.box2 button').click(function(){
     $('.box2 .b21').slideToggle(5000)
     $('.box2 .b22').slideToggle(5000, 'linear')
 })
+
+$('.box3 button').click(function(){
+    $('.box3 .p31').fadeIn(5000).css({
+        backgroundColor : 'blue'
+    })
+    $('.box3 .p32').fadeIn(5000, function(){
+        $(this).css({
+        backgroundColor : 'blue'
+        })
+    })
+})
