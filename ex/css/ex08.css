@@ -1,0 +1,60 @@
+@charset 'utf-8';
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* wrap */
+#wrap {
+    width: 600px;
+    margin: 50px auto;
+    /* justify-content 는 무너질 가능성이 높음 (비추) */
+}
+
+.photo {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+.photoBox {
+    position: absolute;
+    top: 0;
+    left: -100%;
+}
+
+.photoBox:nth-child(1){
+    left: 0;
+}
+
+.pager {
+    margin-top: 20px;
+}
+
+.pager ul {
+    display: flex;
+    justify-content: center;
+}
+
+.pager li {
+    width: 15px;
+    height: 15px;
+    margin: 0 8px;
+    text-indent: -99999px;
+    /* 양수 들여쓰기 음수 내어쓰기 */
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.pager .active {
+    background-color: violet;
+}
