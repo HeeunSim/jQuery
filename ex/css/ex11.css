@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    width: 600px;
+    margin: 30px auto;
+    font-size: 20px;
+    line-height: 1.2em;
+    /* 글자가 20px 넘어가면 line-height도 맞추어 설정.
+    글자 크기가 바뀌면 높이도 달라지지만, line-height로 설정해주는 것이 안 무너진다
+    line-height 1.2em 이상은 넣어주길 권장 */
+}
+
+.slide{
+    position: relative;
+    width: 600px;
+    margin: 0 auto 50px;
+}
+
+.s04Box{
+    box-sizing: border-box;
+    padding: 0 5px;
+}
